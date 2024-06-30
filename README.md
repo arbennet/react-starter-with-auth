@@ -1,11 +1,16 @@
-# React + TypeScript + Vite
+# Overview
+This is a basic react starter app that already has integration with a backend with authn and authz controlled by Auth0.  It is meant to be cloned to fast-track starting new apps.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In particular, it is meant to be paired with the backend template found here: https://github.com/arbennet/nest-auth0-template
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# .env File
+This is what the .env file should look like:
+```
+VITE_AUTH0_CLIENT_ID=
+VITE_AUTH0_DOMAIN=
+VITE_AUTH0_AUDIENCE=
+VITE_AUTH0_CALLBACK_URL=
+```
 
 ## Expanding the ESLint configuration
 
